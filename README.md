@@ -15,6 +15,7 @@ For extarcting the feature from CT and PET based on your segmentation (in our ca
 
 
 --input: folder contains all files from all patients orgonized as below
+
 #├── patient_1
 #│   ├── ct
 #│   │   ├── raw
