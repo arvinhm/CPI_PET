@@ -19,13 +19,13 @@ For extarcting the feature from CT and PET based on your segmentation (in our ca
 #├── patient_1
 #│   ├── ct
 #│   │   ├── raw
-#│   │   │   └── ai_ACRIN-NSCLC-FDG-PET-001_19600110_0.seg.dcm
+#│   │   │   └── ct.dcm
 #│   │   └── segmentation
-#│   │       └── ai_ACRIN-NSCLC-FDG-PET-001_19600722_0.seg.dcm
+#│   │       └── seg.dcm
 #│   └── pet
 #│       ├── raw
-#│       │   └── ai_ACRIN-NSCLC-FDG-PET-002_19600124_0.seg.dcm
+#│       │   └── pet.dcm
 #│       └── segmentation
-#│           └── ai_ACRIN-NSCLC-FDG-PET-002_19600531_0.seg.dcm
+#│           └── seg.dcm
 
 --output: folder where use to save the npy and csv extarcted features
